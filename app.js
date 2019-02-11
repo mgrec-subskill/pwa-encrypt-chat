@@ -1,12 +1,3 @@
-// Initialize Firebase
-var config = {
-    apiKey: "AIzaSyBAtVbo4436LMnbvRQldQ-Zb_snWEhhn4U",
-    authDomain: "privacychat-677a1.firebaseapp.com",
-    databaseURL: "https://privacychat-677a1.firebaseio.com",
-    projectId: "privacychat-677a1",
-    storageBucket: "privacychat-677a1.appspot.com",
-    messagingSenderId: "459707901355"
-};
 firebase.initializeApp(config);
 var db = firebase.firestore();
 
